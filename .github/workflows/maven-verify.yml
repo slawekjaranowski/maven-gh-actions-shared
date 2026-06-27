@@ -347,7 +347,7 @@ jobs:
         shell: bash
 
       - name: Clean Ensuring no file handle remains open on windows
-        run: ./mvnw clean --errors --batch-mode --show-version "-Dmaven.clean.retryOnError"
+        run: ./mvnw clean --errors --batch-mode --show-version -Dmaven.clean.retryOnError ${{ inputs.maven-args }} 
 
   verify:
     if: >

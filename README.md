@@ -326,7 +326,6 @@ We need a use `pull_request_target` event because we need `GITHUB_TOKEN` with wr
 to update labels, milestones of PR from forked repositories.
 
 After the PR got merged each of the following actions are checked and applied if not already set:
-- default label - `maintenance` will be added
 - current milestone will be set unless PR has `skip-changelog` label
 - will be assigned to person who merged PR
 

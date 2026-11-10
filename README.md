@@ -19,3 +19,5 @@
 # Usage
 
 https://github.com/apache/maven-gh-actions-shared/
+
+Test change for read-only branch ruleset.
